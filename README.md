@@ -53,4 +53,4 @@ if(isset($_FILES['image']) && $_FILES['image']['error'] == 0){
 ## Requirements
 
 - GD Library
-- PHP 5.5 or higher
+- PHP 5.5 or higher 
