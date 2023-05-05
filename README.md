@@ -8,13 +8,13 @@ This is a PHP script for resizing and watermarking images. It takes an image fil
 2. Use a HTML form to allow users to upload their image file to your web server.
 3. Use the following PHP code to include the script in your web page:
 
-\```php\
+\```\
 include 'resize-watermark.php';
 \```
 
 4. In the same PHP file, use the following code to call the resizeAndWatermark function:
 
-\```php\
+\```\
 $newImagePath = resizeAndWatermark($_FILES['image']['tmp_name'], $file_extension, $new_width, $new_height, $watermark_text, $font, $font_size, $watermark_color);
 \```
 
@@ -29,7 +29,7 @@ $newImagePath = resizeAndWatermark($_FILES['image']['tmp_name'], $file_extension
 
 ## Example
 
-\```php\
+\```\
 if(isset($_FILES['image']) && $_FILES['image']['error'] == 0){
 
   include 'resize-watermark.php';
