@@ -1,4 +1,4 @@
-# Image Resizing and Watermarking Script
+# Image Resizing and Watermarking Script 
 
 This is a PHP script for resizing and watermarking images. It takes an image file as input, resizes it to a specified size, adds a watermark, and saves the new image as a file.
 
